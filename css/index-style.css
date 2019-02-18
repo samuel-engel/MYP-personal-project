@@ -1,0 +1,45 @@
+body {
+	/*overflow: hidden;*/
+}
+.home {
+  background: url("https://thepianosachronicle.files.wordpress.com/2013/02/wind-energy-image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  z-index: 999;
+}
+.left-column {
+  background-color: rgba(25, 62, 98, 0.4);
+  width: 30%;
+  height: 100%;
+}
+.main-heading {
+  margin-top: 0;
+  color: #E4EBFE;
+  padding-top: 30vh;
+  font-size: 2.5vw;
+}
+.secondary-heading {
+  font-size: 1.5vw;
+  color: #FF9701;
+  padding-top: 1em;
+}
+.icon {
+  position: absolute;
+  left: 50vw;
+  top: 96vh;
+  color: #FF9701;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  transition: font-size 1s;
+}
+#page-content-wrapper button.openbtn {
+  display: initial;
+  top: 102vh;
+  left: 10px;
+}
